@@ -7,4 +7,35 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: whitesmoke;
+}
+
+ol,
+ul {
+  list-style: none;
+  padding: 10px 5px 0px 15px;
+  background-color: white;
+  margin: 0;
+}
+div {
+  text-align: right;
+}
+
+nav ul {
+  display: flex;
+}
+main {
+  display: flex;
+}
+nav a:link {
+  color: black;
+}
+nav a:visited {
+  color: black;
+}
+div a:link {
+  color: black;
+}
+div a:visited {
+  color: black;
 }
