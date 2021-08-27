@@ -17,25 +17,50 @@ ul {
   background-color: white;
   margin: 0;
 }
-div {
-  text-align: right;
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header ul {
+  display: flex;
+  padding: 0.6rem;
+  color: black;
 }
 
 nav ul {
   display: flex;
+  align-items: center;
 }
-main {
+
+nav ul li {
+  margin-right: 0.5rem;
+}
+section {
   display: flex;
+  padding: 0.4rem;
+  flex-wrap: wrap;
 }
-nav a:link {
-  color: black;
+article {
+  padding: 0.5rem;
 }
+nav a:link,
 nav a:visited {
   color: black;
+  text-decoration: none;
 }
-div a:link {
+
+.octo {
   color: black;
+  font-weight: bold;
 }
-div a:visited {
+
+.twit {
+  /* display: flex; */
+  padding: 0px 0px 10px 20px;
   color: black;
+  text-decoration: none;
+}
+.gittt {
+  display: flex;
 }
