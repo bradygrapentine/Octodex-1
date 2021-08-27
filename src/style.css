@@ -33,9 +33,11 @@ nav ul {
   display: flex;
   align-items: center;
 }
+
 section {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 nav ul li {
@@ -43,13 +45,12 @@ nav ul li {
 }
 main article {
   display: flex;
-  padding: 0.4rem;
+  padding: 1.25rem;
   flex-wrap: wrap;
   border-radius: 25px;
 }
 
 main article ul {
-  border-radius: 25px;
   padding: 0rem;
   display: flex;
   flex-wrap: wrap;
@@ -64,6 +65,7 @@ nav a:visited {
 .octo {
   color: black;
   font-weight: bold;
+  padding: 0rem;
 }
 
 li a {
@@ -83,11 +85,11 @@ li a:hover {
 }
 article a {
   justify-content: space-between;
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 article li {
-  background-color: whitesmoke;
+  background-color: white;
   flex-wrap: wrap;
   padding: 0.25;
   text-align: center;
@@ -95,4 +97,67 @@ article li {
 section article {
   display: flex;
   flex-direction: column;
+}
+.pp {
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+}
+.og {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+}
+.stc {
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+}
+.bc {
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+}
+.sc {
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+}
+.scub {
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+}
+.dtc {
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+}
+.spid {
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+}
+.dro {
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+}
+.dfc {
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+}
+.Droid {
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+}
+.dfunk {
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+}
+footer {
+  display: flex;
 }
