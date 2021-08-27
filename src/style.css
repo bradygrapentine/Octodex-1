@@ -161,6 +161,8 @@ section article {
   background-color: whitesmoke;
 }
 footer {
-  margin: 3rem;
+  padding: 50px 30px 23px 20px;
   color: rgb(136, 136, 136);
+  font-size: 14.5px;
+  border-top-style: solid;
 }
