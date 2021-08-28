@@ -22,7 +22,7 @@ header {
   display: flex;
   justify-content: space-between;
   background-color: white;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
 }
 header ul {
   display: flex;
@@ -114,67 +114,85 @@ section article ul li a {
   background-color: whitesmoke;
   padding: 0rem;
 }
+.Terra:hover {
+  text-decoration: underline;
+  color: blue;
+}
+.gato:hover {
+  text-decoration: underline;
+  color: blue;
+}
 .pp {
   display: flex;
   justify-content: space-between;
   background-color: whitesmoke;
-  padding: 0rem;
-  margin: 0rem;
+  padding-top: 1rem;
 }
 .og {
   background-color: whitesmoke;
   display: flex;
   justify-content: space-between;
+  padding-top: 1rem;
 }
 .stc {
   display: flex;
   justify-content: space-between;
   background-color: whitesmoke;
+  padding-top: 1rem;
 }
 .bc {
   display: flex;
   justify-content: space-between;
   background-color: whitesmoke;
+  padding-top: 1rem;
 }
 .sc {
   display: flex;
   justify-content: space-between;
   background-color: whitesmoke;
+  padding-top: 1rem;
 }
 .scub {
   display: flex;
   justify-content: space-between;
   background-color: whitesmoke;
+  padding-top: 1rem;
 }
 .dtc {
   display: flex;
   justify-content: space-between;
   background-color: whitesmoke;
+  padding-top: 1rem;
 }
 .spid {
   display: flex;
   justify-content: space-between;
   background-color: whitesmoke;
+  padding-top: 1rem;
 }
 .dro {
   display: flex;
   justify-content: space-between;
   background-color: whitesmoke;
+  padding-top: 1rem;
 }
 .dfc {
   display: flex;
   justify-content: space-between;
   background-color: whitesmoke;
+  padding-top: 1rem;
 }
 .Droid {
   display: flex;
   justify-content: space-between;
   background-color: whitesmoke;
+  padding-top: 1rem;
 }
 .dfunk {
   display: flex;
   justify-content: space-between;
   background-color: whitesmoke;
+  padding-top: 1rem;
 }
 footer {
   padding: 50px 30px 23px 20px;
