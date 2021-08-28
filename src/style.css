@@ -92,7 +92,12 @@ li a:hover {
   text-decoration: underline;
 }
 section article a {
-  border-radius: 15px;
+  border-radius: 0.75rem;
+  background-color: white;
+}
+
+section article a img {
+  border-radius: 0.75rem;
   background-color: white;
 }
 article a {
